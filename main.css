@@ -1,0 +1,168 @@
+.canvas {
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    position: relative;
+    background-color: silver;
+    outline: 2px solid black;
+}
+
+.number-container {
+    position: absolute;
+    font-size: 24px;
+}
+
+.number-container>* {
+    position: absolute;
+}
+
+.five {
+    left: 175px;
+    top: 18px;
+}
+
+.ten {
+    left: 215px;
+    top: 60px;
+}
+
+.fifteen {
+    left: 230px;
+    top: 110px;
+}
+
+.twenty {
+    left: 215px;
+    top: 160px;
+}
+
+.twenty-five {
+    left: 180px;
+    top: 205px;
+}
+
+.thirty {
+    left: 120px;
+    top: 220px;
+}
+
+.thirty-five {
+    left: 60px;
+    top: 205px;
+}
+
+.forty {
+    left: 20px;
+    top: 165px;
+}
+
+.forty-five {
+    left: 8px;
+    top: 110px;
+}
+
+.fifty {
+    left: 20px;
+    top: 60px;
+}
+
+.fifty-five {
+    left: 55px;
+    top: 20px;
+}
+
+.zero {
+    left: 112px;
+}
+
+.hand-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* background: red; */
+    position: absolute;
+    transform: rotate(0deg);
+}
+
+.wing-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bilbilak {
+    width: 100px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: silver;
+    outline: 1px solid black;
+}
+
+.sikh {
+    width: 7px;
+    z-index: -1;
+    height: 330px;
+    top: -10px;
+    border-radius: 5px;
+    left: 45px;
+    background-color: black;
+    position: absolute;
+}
+
+.ring {
+    position: absolute;
+
+}
+
+.left-wing {
+    transform: rotate(-25deg);
+}
+
+.right-wing {
+    transform: rotate(25deg);
+}
+
+.dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    background: white;
+    left: 117px;
+    top: 118px;
+}
+
+.hand {
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    left: 122px;
+    top: 20px;
+}
+
+.handSec {
+    height: 105px;
+    background-color: #e3e3e3;
+    opacity: 0.7;
+}
+
+.handMin {
+    height: 105px;
+    background-color: black;
+}
+
+.handHour {
+    width: 4px;
+    left: 122px;
+    top: 65px;
+    height: 65px;
+    background-color: black;
+}
